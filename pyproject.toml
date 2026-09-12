@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gad-preschool-ml"
-version = "1.0.0"
+version = "1.1.0"
 description = "Concurrent classification of preschool GAD using explainable machine learning"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -30,3 +30,8 @@ dependencies = [
 Repository = "https://github.com/sbariscelebi/gad-preschool-ml"
 Dataset = "https://doi.org/10.7910/DVN/N42LWG"
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -45,7 +45,15 @@ The two direct diagnostic-definition variables were excluded from the primary an
 ```text
 .
 ├── src/
-│   └── gad_preschool_analysis.py   # Complete analysis pipeline
+│   └── gad_preschool/
+│       ├── settings.py             # Configuration, constants, and shared utilities
+│       ├── data.py                 # Data loading and feature-set construction
+│       ├── models.py               # Pipelines, searches, metrics, and model specifications
+│       ├── evaluation.py           # Nested CV and internal-holdout evaluation
+│       ├── figures.py              # Performance and diagnostic figures
+│       ├── explainability.py       # Feature importance, tree rules, and SHAP
+│       ├── reporting.py            # Tables, manifests, checks, and model selection
+│       └── main.py                 # End-to-end workflow orchestration
 ├── data/
 │   └── README.md                   # Data access and local path instructions
 ├── results/
@@ -54,6 +62,7 @@ The two direct diagnostic-definition variables were excluded from the primary an
 │   └── full_analysis/              # Verified full-analysis workbooks and figures
 ├── docs/
 │   ├── methodology.md
+│   ├── architecture.md
 │   ├── reproducibility.md
 │   └── results.md
 ├── manuscript/
@@ -80,7 +89,7 @@ Activate the environment and install dependencies:
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -e .
 ```
 
 ## Running the analysis
@@ -92,7 +101,7 @@ PowerShell:
 ```powershell
 $env:GAD_TRAIN_PATH = "C:\path\to\Training Data.xlsx"
 $env:GAD_OUTPUT_DIR = "C:\path\to\outputs"
-python src\gad_preschool_analysis.py
+python -m gad_preschool
 ```
 
 Bash:
@@ -100,7 +109,7 @@ Bash:
 ```bash
 export GAD_TRAIN_PATH="/path/to/Training Data.xlsx"
 export GAD_OUTPUT_DIR="/path/to/outputs"
-python src/gad_preschool_analysis.py
+python -m gad_preschool
 ```
 
 The committed `results/full_analysis` directory contains archived outputs from the completed full analysis. The repository-refresh operation did not rerun the computational pipeline.

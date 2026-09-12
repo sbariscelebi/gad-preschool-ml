@@ -1,14 +1,59 @@
 {
   "schema_version": 1,
   "repository": "https://github.com/sbariscelebi/gad-preschool-ml",
-  "release": "1.0.0",
+  "release": "1.1.0",
   "generated_on": "2026-09-12",
   "analysis_status": "archived_full_analysis_outputs_not_rerun_during_repository_refresh",
   "files": [
     {
-      "path": "src/gad_preschool_analysis.py",
-      "bytes": 144659,
-      "sha256": "d918cdad04a23e954002bf55154e49565a181a40a7ab83af17f4b2efaea82816"
+      "path": "src/gad_preschool/__init__.py",
+      "bytes": 90,
+      "sha256": "1c6f35bcd8615a56276d57d9dec8c51a99c04f4a6609f38206fe4efda26e4845"
+    },
+    {
+      "path": "src/gad_preschool/__main__.py",
+      "bytes": 126,
+      "sha256": "1d04700c62d8d8aedf5845ddb3b1ac3ef89b8ffdd71b9e51d157f1b72b6dccb6"
+    },
+    {
+      "path": "src/gad_preschool/data.py",
+      "bytes": 3879,
+      "sha256": "f2d6fb35eb9061dcf264270476d5016f462641121efeda9dc240949bec87c264"
+    },
+    {
+      "path": "src/gad_preschool/evaluation.py",
+      "bytes": 12473,
+      "sha256": "7d0704cccaf3c8efafc73264dfde047afccb54fbf0556c6fe0281f115a5323c8"
+    },
+    {
+      "path": "src/gad_preschool/explainability.py",
+      "bytes": 23658,
+      "sha256": "6b613c2eaf587eefec34059b1e47395452b1e8d60252ec80d69d198b2b82737b"
+    },
+    {
+      "path": "src/gad_preschool/figures.py",
+      "bytes": 29466,
+      "sha256": "7951fb06b643bcdf5183bbbac73abae820c88050f5597bd4b05560f4aaf01bb2"
+    },
+    {
+      "path": "src/gad_preschool/main.py",
+      "bytes": 22158,
+      "sha256": "8029c9496f31ecee702b8e8bc16dfcdce87f8c7febd190bc55bc56e71c3ca84d"
+    },
+    {
+      "path": "src/gad_preschool/models.py",
+      "bytes": 18600,
+      "sha256": "715157b458cc9fe4f317136ed9a4eaec75c1efe95c41f28ccc8fe821c861fc25"
+    },
+    {
+      "path": "src/gad_preschool/reporting.py",
+      "bytes": 23392,
+      "sha256": "9231864c0189b6cad77f183423e80a0a84c508d2d80520a14ebbfb9f3a19a418"
+    },
+    {
+      "path": "src/gad_preschool/settings.py",
+      "bytes": 12191,
+      "sha256": "63bf9690d1dac009a0ffdf710803269cd3306a11eb2a3bda28861edcc0cf4102"
     },
     {
       "path": "manuscript/manuscript.docx",

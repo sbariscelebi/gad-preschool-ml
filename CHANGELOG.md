@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0 — 2026-09-12
+
+- Reorganised the single analysis script as an installable `gad_preschool` package.
+- Separated configuration, data preparation, modelling, evaluation, figures, explainability, reporting, and workflow orchestration.
+- Preserved the analysis functions and command-line entry point without changing the archived numerical results.
+- Added an architecture guide and updated the reproducibility instructions.
+
 ## 1.0.0 — 2026-09-12
 
 - Replaced the legacy early-detection/SMOTE repository with the completed concurrent-classification analysis.
