@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gad-preschool-ml"
+version = "1.0.0"
+description = "Concurrent classification of preschool GAD using explainable machine learning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Hazal Karakus" },
+  { name = "Selahattin Baris Celebi" },
+  { name = "Seyma Ugur" },
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "joblib>=1.3",
+  "matplotlib>=3.7",
+  "scikit-learn>=1.3",
+  "imbalanced-learn>=0.11",
+  "shap>=0.44",
+  "xgboost>=2.0",
+  "openpyxl>=3.1",
+]
+
+[project.urls]
+Repository = "https://github.com/sbariscelebi/gad-preschool-ml"
+Dataset = "https://doi.org/10.7910/DVN/N42LWG"
+

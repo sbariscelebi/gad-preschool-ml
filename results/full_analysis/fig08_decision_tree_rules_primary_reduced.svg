@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1997.125pt" height="776.16pt" viewBox="0 0 1997.125 776.16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-25T16:38:33.710536</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 776.16 
+L 1997.125 776.16 
+L 1997.125 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 57.741114 686.806344 
+Q 76.019529 634.137293 94.664504 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 60.301829 684.307797 
+L 57.741114 686.806344 
+L 57.278705 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <g id="patch_3">
+     <path d="M 39.240556 720.7095 
+L 63.280556 720.7095 
+Q 65.680556 720.7095 65.680556 718.3095 
+L 65.680556 692.6505 
+Q 65.680556 690.2505 63.280556 690.2505 
+L 39.240556 690.2505 
+Q 36.840556 690.2505 36.840556 692.6505 
+L 36.840556 718.3095 
+Q 36.840556 720.7095 39.240556 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(51.260556 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(39.240556 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(51.260556 716.64575)"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 132.901109 686.806344 
+Q 114.622693 634.137293 95.977718 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 133.363517 683.258644 
+L 132.901109 686.806344 
+L 130.340393 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <g id="patch_5">
+     <path d="M 127.361667 720.7095 
+L 151.401667 720.7095 
+Q 153.801667 720.7095 153.801667 718.3095 
+L 153.801667 692.6505 
+Q 153.801667 690.2505 151.401667 690.2505 
+L 127.361667 690.2505 
+Q 124.961667 690.2505 124.961667 692.6505 
+L 124.961667 718.3095 
+Q 124.961667 720.7095 127.361667 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(139.381667 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(127.361667 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(139.381667 716.64575)"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 233.983336 686.806344 
+Q 252.261752 634.137293 270.906726 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 236.544051 684.307797 
+L 233.983336 686.806344 
+L 233.520927 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <g id="patch_7">
+     <path d="M 215.482778 720.7095 
+L 239.522778 720.7095 
+Q 241.922778 720.7095 241.922778 718.3095 
+L 241.922778 692.6505 
+Q 241.922778 690.2505 239.522778 690.2505 
+L 215.482778 690.2505 
+Q 213.082778 690.2505 213.082778 692.6505 
+L 213.082778 718.3095 
+Q 213.082778 720.7095 215.482778 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(227.502778 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(215.482778 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(227.502778 716.64575)"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 309.143331 686.806344 
+Q 290.864915 634.137293 272.21994 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 309.605739 683.258644 
+L 309.143331 686.806344 
+L 306.582616 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_9">
+     <path d="M 303.603889 720.7095 
+L 327.643889 720.7095 
+Q 330.043889 720.7095 330.043889 718.3095 
+L 330.043889 692.6505 
+Q 330.043889 690.2505 327.643889 690.2505 
+L 303.603889 690.2505 
+Q 301.203889 690.2505 301.203889 692.6505 
+L 301.203889 718.3095 
+Q 301.203889 720.7095 303.603889 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(315.623889 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(303.603889 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(315.623889 716.64575)"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 410.225558 686.806344 
+Q 428.503974 634.137293 447.148949 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 412.786273 684.307797 
+L 410.225558 686.806344 
+L 409.76315 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <g id="patch_11">
+     <path d="M 391.725 720.7095 
+L 415.765 720.7095 
+Q 418.165 720.7095 418.165 718.3095 
+L 418.165 692.6505 
+Q 418.165 690.2505 415.765 690.2505 
+L 391.725 690.2505 
+Q 389.325 690.2505 389.325 692.6505 
+L 389.325 718.3095 
+Q 389.325 720.7095 391.725 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(403.745 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(391.725 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(403.745 716.64575)"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 485.385553 686.806344 
+Q 467.107137 634.137293 448.462163 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 485.847962 683.258644 
+L 485.385553 686.806344 
+L 482.824838 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <g id="patch_13">
+     <path d="M 479.846111 720.7095 
+L 503.886111 720.7095 
+Q 506.286111 720.7095 506.286111 718.3095 
+L 506.286111 692.6505 
+Q 506.286111 690.2505 503.886111 690.2505 
+L 479.846111 690.2505 
+Q 477.446111 690.2505 477.446111 692.6505 
+L 477.446111 718.3095 
+Q 477.446111 720.7095 479.846111 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(491.866111 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(479.846111 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(491.866111 716.64575)"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 586.46778 686.806344 
+Q 604.746196 634.137293 623.391171 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 589.028496 684.307797 
+L 586.46778 686.806344 
+L 586.005372 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <g id="patch_15">
+     <path d="M 567.967222 720.7095 
+L 592.007222 720.7095 
+Q 594.407222 720.7095 594.407222 718.3095 
+L 594.407222 692.6505 
+Q 594.407222 690.2505 592.007222 690.2505 
+L 567.967222 690.2505 
+Q 565.567222 690.2505 565.567222 692.6505 
+L 565.567222 718.3095 
+Q 565.567222 720.7095 567.967222 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(579.987222 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(567.967222 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(579.987222 716.64575)"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 661.627775 686.806344 
+Q 643.34936 634.137293 624.704385 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 662.090184 683.258644 
+L 661.627775 686.806344 
+L 659.06706 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <g id="patch_17">
+     <path d="M 656.088333 720.7095 
+L 680.128333 720.7095 
+Q 682.528333 720.7095 682.528333 718.3095 
+L 682.528333 692.6505 
+Q 682.528333 690.2505 680.128333 690.2505 
+L 656.088333 690.2505 
+Q 653.688333 690.2505 653.688333 692.6505 
+L 653.688333 718.3095 
+Q 653.688333 720.7095 656.088333 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(668.108333 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(656.088333 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(668.108333 716.64575)"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 762.710003 686.806344 
+Q 780.988418 634.137293 799.633393 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 765.270718 684.307797 
+L 762.710003 686.806344 
+L 762.247594 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <g id="patch_19">
+     <path d="M 744.209444 720.7095 
+L 768.249444 720.7095 
+Q 770.649444 720.7095 770.649444 718.3095 
+L 770.649444 692.6505 
+Q 770.649444 690.2505 768.249444 690.2505 
+L 744.209444 690.2505 
+Q 741.809444 690.2505 741.809444 692.6505 
+L 741.809444 718.3095 
+Q 741.809444 720.7095 744.209444 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(756.229444 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(744.209444 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(756.229444 716.64575)"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 837.869997 686.806344 
+Q 819.591582 634.137293 800.946607 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 838.332406 683.258644 
+L 837.869997 686.806344 
+L 835.309282 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <g id="patch_21">
+     <path d="M 832.330556 720.7095 
+L 856.370556 720.7095 
+Q 858.770556 720.7095 858.770556 718.3095 
+L 858.770556 692.6505 
+Q 858.770556 690.2505 856.370556 690.2505 
+L 832.330556 690.2505 
+Q 829.930556 690.2505 829.930556 692.6505 
+L 829.930556 718.3095 
+Q 829.930556 720.7095 832.330556 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(844.350556 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(832.330556 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(844.350556 716.64575)"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 938.952225 686.806344 
+Q 957.23064 634.137293 975.875615 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 941.51294 684.307797 
+L 938.952225 686.806344 
+L 938.489816 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <g id="patch_23">
+     <path d="M 920.451667 720.7095 
+L 944.491667 720.7095 
+Q 946.891667 720.7095 946.891667 718.3095 
+L 946.891667 692.6505 
+Q 946.891667 690.2505 944.491667 690.2505 
+L 920.451667 690.2505 
+Q 918.051667 690.2505 918.051667 692.6505 
+L 918.051667 718.3095 
+Q 918.051667 720.7095 920.451667 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(932.471667 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(920.451667 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(932.471667 716.64575)"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 1014.11222 686.806344 
+Q 995.833804 634.137293 977.188829 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1014.574628 683.258644 
+L 1014.11222 686.806344 
+L 1011.551504 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <g id="patch_25">
+     <path d="M 1008.572778 720.7095 
+L 1032.612778 720.7095 
+Q 1035.012778 720.7095 1035.012778 718.3095 
+L 1035.012778 692.6505 
+Q 1035.012778 690.2505 1032.612778 690.2505 
+L 1008.572778 690.2505 
+Q 1006.172778 690.2505 1006.172778 692.6505 
+L 1006.172778 718.3095 
+Q 1006.172778 720.7095 1008.572778 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1020.592778 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1008.572778 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1020.592778 716.64575)"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 1115.194447 686.806344 
+Q 1133.472863 634.137293 1152.117837 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1117.755162 684.307797 
+L 1115.194447 686.806344 
+L 1114.732038 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <g id="patch_27">
+     <path d="M 1096.693889 720.7095 
+L 1120.733889 720.7095 
+Q 1123.133889 720.7095 1123.133889 718.3095 
+L 1123.133889 692.6505 
+Q 1123.133889 690.2505 1120.733889 690.2505 
+L 1096.693889 690.2505 
+Q 1094.293889 690.2505 1094.293889 692.6505 
+L 1094.293889 718.3095 
+Q 1094.293889 720.7095 1096.693889 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1108.713889 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1096.693889 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1108.713889 716.64575)"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 1190.354442 686.806344 
+Q 1172.076026 634.137293 1153.431051 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1190.81685 683.258644 
+L 1190.354442 686.806344 
+L 1187.793727 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <g id="patch_29">
+     <path d="M 1184.815 720.7095 
+L 1208.855 720.7095 
+Q 1211.255 720.7095 1211.255 718.3095 
+L 1211.255 692.6505 
+Q 1211.255 690.2505 1208.855 690.2505 
+L 1184.815 690.2505 
+Q 1182.415 690.2505 1182.415 692.6505 
+L 1182.415 718.3095 
+Q 1182.415 720.7095 1184.815 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1196.835 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1184.815 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1196.835 716.64575)"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 1291.436669 686.806344 
+Q 1309.715085 634.137293 1328.36006 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1293.997384 684.307797 
+L 1291.436669 686.806344 
+L 1290.974261 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <g id="patch_31">
+     <path d="M 1272.936111 720.7095 
+L 1296.976111 720.7095 
+Q 1299.376111 720.7095 1299.376111 718.3095 
+L 1299.376111 692.6505 
+Q 1299.376111 690.2505 1296.976111 690.2505 
+L 1272.936111 690.2505 
+Q 1270.536111 690.2505 1270.536111 692.6505 
+L 1270.536111 718.3095 
+Q 1270.536111 720.7095 1272.936111 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1284.956111 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1272.936111 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1284.956111 716.64575)"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 1366.596664 686.806344 
+Q 1348.318248 634.137293 1329.673274 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1367.059073 683.258644 
+L 1366.596664 686.806344 
+L 1364.035949 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <g id="patch_33">
+     <path d="M 1361.057222 720.7095 
+L 1385.097222 720.7095 
+Q 1387.497222 720.7095 1387.497222 718.3095 
+L 1387.497222 692.6505 
+Q 1387.497222 690.2505 1385.097222 690.2505 
+L 1361.057222 690.2505 
+Q 1358.657222 690.2505 1358.657222 692.6505 
+L 1358.657222 718.3095 
+Q 1358.657222 720.7095 1361.057222 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1373.077222 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1361.057222 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1373.077222 716.64575)"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 1467.678891 686.806344 
+Q 1485.957307 634.137293 1504.602282 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1470.239607 684.307797 
+L 1467.678891 686.806344 
+L 1467.216483 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <g id="patch_35">
+     <path d="M 1449.178333 720.7095 
+L 1473.218333 720.7095 
+Q 1475.618333 720.7095 1475.618333 718.3095 
+L 1475.618333 692.6505 
+Q 1475.618333 690.2505 1473.218333 690.2505 
+L 1449.178333 690.2505 
+Q 1446.778333 690.2505 1446.778333 692.6505 
+L 1446.778333 718.3095 
+Q 1446.778333 720.7095 1449.178333 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1461.198333 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1449.178333 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1461.198333 716.64575)"/>
+   </g>
+   <g id="patch_36">
+    <path d="M 1542.838886 686.806344 
+Q 1524.560471 634.137293 1505.915496 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1543.301295 683.258644 
+L 1542.838886 686.806344 
+L 1540.278171 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_18">
+    <g id="patch_37">
+     <path d="M 1537.299444 720.7095 
+L 1561.339444 720.7095 
+Q 1563.739444 720.7095 1563.739444 718.3095 
+L 1563.739444 692.6505 
+Q 1563.739444 690.2505 1561.339444 690.2505 
+L 1537.299444 690.2505 
+Q 1534.899444 690.2505 1534.899444 692.6505 
+L 1534.899444 718.3095 
+Q 1534.899444 720.7095 1537.299444 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1549.319444 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1537.299444 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1549.319444 716.64575)"/>
+   </g>
+   <g id="patch_38">
+    <path d="M 1732.042225 686.806344 
+Q 1750.32064 634.137293 1768.965615 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1734.60294 684.307797 
+L 1732.042225 686.806344 
+L 1731.579816 683.258644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <g id="patch_39">
+     <path d="M 1713.541667 720.7095 
+L 1737.581667 720.7095 
+Q 1739.981667 720.7095 1739.981667 718.3095 
+L 1739.981667 692.6505 
+Q 1739.981667 690.2505 1737.581667 690.2505 
+L 1713.541667 690.2505 
+Q 1711.141667 690.2505 1711.141667 692.6505 
+L 1711.141667 718.3095 
+Q 1711.141667 720.7095 1713.541667 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1725.561667 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1713.541667 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1725.561667 716.64575)"/>
+   </g>
+   <g id="patch_40">
+    <path d="M 1807.20222 686.806344 
+Q 1788.923804 634.137293 1770.278829 580.412006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1807.664628 683.258644 
+L 1807.20222 686.806344 
+L 1804.641504 684.307797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_20">
+    <g id="patch_41">
+     <path d="M 1801.662778 720.7095 
+L 1825.702778 720.7095 
+Q 1828.102778 720.7095 1828.102778 718.3095 
+L 1828.102778 692.6505 
+Q 1828.102778 690.2505 1825.702778 690.2505 
+L 1801.662778 690.2505 
+Q 1799.262778 690.2505 1799.262778 692.6505 
+L 1799.262778 718.3095 
+Q 1799.262778 720.7095 1801.662778 720.7095 
+z
+" style="fill: #808080; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1813.682778 698.72925)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1801.662778 707.6875)">  (...)  </text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1813.682778 716.64575)"/>
+   </g>
+   <g id="patch_42">
+    <path d="M 111.241448 555.582864 
+Q 146.452925 504.852124 182.301901 453.202911 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 114.380491 553.866353 
+L 111.241448 555.582864 
+L 111.751665 552.041723 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_21">
+    <g id="patch_43">
+     <path d="M 32.438611 598.2855 
+L 158.203611 598.2855 
+Q 160.603611 598.2855 160.603611 595.8855 
+L 160.603611 561.04075 
+Q 160.603611 558.64075 158.203611 558.64075 
+L 32.438611 558.64075 
+Q 30.038611 558.64075 30.038611 561.04075 
+L 30.038611 595.8855 
+Q 30.038611 598.2855 32.438611 598.2855 
+z
+" style="fill: #e5833d; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(32.438611 567.23325)">Non-situational anxiety &lt;= 3.5</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(65.301111 576.30525)">samples = 308</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(49.992361 585.2635)">value = [393.64, 7.41]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(62.946736 594.22175)">class = No GAD</text>
+   </g>
+   <g id="patch_44">
+    <path d="M 255.642997 555.582864 
+Q 220.43152 504.852124 184.582543 453.202911 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 255.132779 552.041723 
+L 255.642997 555.582864 
+L 252.503954 553.866353 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_22">
+    <g id="patch_45">
+     <path d="M 204.355208 598.2855 
+L 338.771458 598.2855 
+Q 341.171458 598.2855 341.171458 595.8855 
+L 341.171458 561.04075 
+Q 341.171458 558.64075 338.771458 558.64075 
+L 204.355208 558.64075 
+Q 201.955208 558.64075 201.955208 561.04075 
+L 201.955208 595.8855 
+Q 201.955208 598.2855 204.355208 598.2855 
+z
+" style="fill: #ea9b61; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(204.355208 567.23325)">Night waking frequency &lt;= 75.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(244.088333 576.30525)">samples = 55</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(228.779583 585.2635)">value = [46.97, 9.58]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(239.188958 594.22175)">class = No GAD</text>
+   </g>
+   <g id="patch_46">
+    <path d="M 463.725892 555.582864 
+Q 498.937369 504.852124 534.786346 453.202911 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 466.864935 553.866353 
+L 463.725892 555.582864 
+L 464.23611 552.041723 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_23">
+    <g id="patch_47">
+     <path d="M 377.463056 598.2855 
+L 518.148056 598.2855 
+Q 520.548056 598.2855 520.548056 595.8855 
+L 520.548056 561.04075 
+Q 520.548056 558.64075 518.148056 558.64075 
+L 377.463056 558.64075 
+Q 375.063056 558.64075 375.063056 561.04075 
+L 375.063056 595.8855 
+Q 375.063056 598.2855 377.463056 598.2855 
+z
+" style="fill: #eb9d66; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(377.463056 567.23325)">Duration awake per night &lt;= 0.07</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(420.330556 576.30525)">samples = 54</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(405.021806 585.2635)">value = [37.65, 8.49]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(415.431181 594.22175)">class = No GAD</text>
+   </g>
+   <g id="patch_48">
+    <path d="M 608.243944 555.750715 
+Q 572.975128 504.937364 537.068811 453.205539 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 607.733727 552.209574 
+L 608.243944 555.750715 
+L 605.104901 554.034204 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_24">
+    <g id="patch_49">
+     <path d="M 572.469028 598.228625 
+L 675.626528 598.228625 
+Q 678.026528 598.228625 678.026528 595.828625 
+L 678.026528 561.211375 
+Q 678.026528 558.811375 675.626528 558.811375 
+L 572.469028 558.811375 
+Q 570.069028 558.811375 570.069028 561.211375 
+L 570.069028 595.828625 
+Q 570.069028 598.228625 572.469028 598.228625 
+z
+" style="fill: #63b2ea; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(572.469028 567.290125)">Sleep resistance &lt;= 54.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(599.117778 576.248375)">samples = 7</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(583.809028 585.206625)">value = [1.27, 6.01]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(598.852778 594.164875)">class = GAD</text>
+   </g>
+   <g id="patch_50">
+    <path d="M 816.093834 555.750715 
+Q 851.36265 504.937364 887.268966 453.205539 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 819.232877 554.034204 
+L 816.093834 555.750715 
+L 816.604051 552.209574 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_25">
+    <g id="patch_51">
+     <path d="M 751.25625 598.228625 
+L 849.32375 598.228625 
+Q 851.72375 598.228625 851.72375 595.828625 
+L 851.72375 561.211375 
+Q 851.72375 558.811375 849.32375 558.811375 
+L 751.25625 558.811375 
+Q 748.85625 558.811375 748.85625 561.211375 
+L 748.85625 595.828625 
+Q 748.85625 598.228625 751.25625 598.228625 
+z
+" style="fill: #b4daf5; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(751.25625 567.290125)">Sleep resistance &lt;= 4.5</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(772.815 576.248375)">samples = 17</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(757.50625 585.206625)">value = [7.28, 11.76]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(775.095 594.164875)">class = GAD</text>
+   </g>
+   <g id="patch_52">
+    <path d="M 960.728389 555.750715 
+Q 925.459572 504.937364 889.553256 453.205539 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 960.218171 552.209574 
+L 960.728389 555.750715 
+L 957.589346 554.034204 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_26">
+    <g id="patch_53">
+     <path d="M 928.658472 598.228625 
+L 1024.405972 598.228625 
+Q 1026.805972 598.228625 1026.805972 595.828625 
+L 1026.805972 561.211375 
+Q 1026.805972 558.811375 1024.405972 558.811375 
+L 928.658472 558.811375 
+Q 926.258472 558.811375 926.258472 561.211375 
+L 926.258472 595.828625 
+Q 926.258472 598.228625 928.658472 598.228625 
+z
+" style="fill: #e99355; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(941.088472 567.290125)">Tiredness &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(946.512222 576.248375)">samples = 185</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(928.658472 585.206625)">value = [120.65, 16.96]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(944.157847 594.164875)">class = No GAD</text>
+   </g>
+   <g id="patch_54">
+    <path d="M 1168.578278 555.750715 
+Q 1203.847095 504.937364 1239.753411 453.205539 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1171.717321 554.034204 
+L 1168.578278 555.750715 
+L 1169.088495 552.209574 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_27">
+    <g id="patch_55">
+     <path d="M 1094.918819 598.228625 
+L 1210.630069 598.228625 
+Q 1213.030069 598.228625 1213.030069 595.828625 
+L 1213.030069 561.211375 
+Q 1213.030069 558.811375 1210.630069 558.811375 
+L 1094.918819 558.811375 
+Q 1092.518819 558.811375 1092.518819 561.211375 
+L 1092.518819 595.828625 
+Q 1092.518819 598.228625 1094.918819 598.228625 
+z
+" style="fill: #45a3e7; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1094.918819 567.290125)">Hours to fall asleep &lt;= 0.19</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1127.844444 576.248375)">samples = 5</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1109.990694 585.206625)">value = [0.67, 10.99]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1127.579444 594.164875)">class = GAD</text>
+   </g>
+   <g id="patch_56">
+    <path d="M 1313.09633 555.582864 
+Q 1277.884853 504.852124 1242.035876 453.202911 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1312.586113 552.041723 
+L 1313.09633 555.582864 
+L 1309.957287 553.866353 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_28">
+    <g id="patch_57">
+     <path d="M 1261.808542 598.2855 
+L 1396.224792 598.2855 
+Q 1398.624792 598.2855 1398.624792 595.8855 
+L 1398.624792 561.04075 
+Q 1398.624792 558.64075 1396.224792 558.64075 
+L 1261.808542 558.64075 
+Q 1259.408542 558.64075 1259.408542 561.04075 
+L 1259.408542 595.8855 
+Q 1259.408542 598.2855 1261.808542 598.2855 
+z
+" style="fill: #efb082; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1261.808542 567.23325)">Night waking frequency &lt;= 75.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1301.541667 576.30525)">samples = 15</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1291.322917 585.2635)">value = [3.6, 1.33]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1296.642292 594.22175)">class = No GAD</text>
+   </g>
+   <g id="patch_58">
+    <path d="M 1513.292281 555.371869 
+Q 1530.794387 504.939747 1548.663051 453.451389 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1515.852997 552.873322 
+L 1513.292281 555.371869 
+L 1512.829873 551.824169 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_29">
+    <g id="patch_59">
+     <path d="M 1462.475139 598.228625 
+L 1548.042639 598.228625 
+Q 1550.442639 598.228625 1550.442639 595.828625 
+L 1550.442639 561.211375 
+Q 1550.442639 558.811375 1548.042639 558.811375 
+L 1462.475139 558.811375 
+Q 1460.075139 558.811375 1460.075139 561.211375 
+L 1460.075139 595.828625 
+Q 1460.075139 598.228625 1462.475139 598.228625 
+z
+" style="fill: #e99558; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1467.080139 567.290125)">Inattention &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1477.783889 576.248375)">samples = 17</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1462.475139 585.206625)">value = [20.71, 3.27]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1472.884514 594.164875)">class = No GAD</text>
+   </g>
+   <g id="patch_60">
+    <path d="M 1586.899442 559.846344 
+Q 1568.621026 507.177293 1549.976051 453.452006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1587.36185 556.298644 
+L 1586.899442 559.846344 
+L 1584.338727 557.347797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_30">
+    <g id="patch_61">
+     <path d="M 1555.68625 593.7495 
+L 1631.07375 593.7495 
+Q 1633.47375 593.7495 1633.47375 591.3495 
+L 1633.47375 565.6905 
+Q 1633.47375 563.2905 1631.07375 563.2905 
+L 1555.68625 563.2905 
+Q 1553.28625 563.2905 1553.28625 565.6905 
+L 1553.28625 591.3495 
+Q 1553.28625 593.7495 1555.68625 593.7495 
+z
+" style="fill: #399de5; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1568.45 571.76925)">samples = 7</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1555.68625 580.7275)">value = [0.0, 2.27]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1568.185 589.68575)">class = GAD</text>
+   </g>
+   <g id="patch_62">
+    <path d="M 1687.981669 559.846344 
+Q 1706.260085 507.177293 1724.90506 453.452006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1690.542384 557.347797 
+L 1687.981669 559.846344 
+L 1687.519261 556.298644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_31">
+    <g id="patch_63">
+     <path d="M 1641.262361 593.7495 
+L 1721.739861 593.7495 
+Q 1724.139861 593.7495 1724.139861 591.3495 
+L 1724.139861 565.6905 
+Q 1724.139861 563.2905 1721.739861 563.2905 
+L 1641.262361 563.2905 
+Q 1638.862361 563.2905 1638.862361 565.6905 
+L 1638.862361 591.3495 
+Q 1638.862361 593.7495 1641.262361 593.7495 
+z
+" style="fill: #399de5; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1654.026111 571.76925)">samples = 36</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1641.262361 580.7275)">value = [0.0, 25.16]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1656.306111 589.68575)">class = GAD</text>
+   </g>
+   <g id="patch_64">
+    <path d="M 1761.58883 555.371869 
+Q 1744.086724 504.939747 1726.21806 453.451389 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1762.051238 551.824169 
+L 1761.58883 555.371869 
+L 1759.028115 552.873322 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_32">
+    <g id="patch_65">
+     <path d="M 1711.766597 598.228625 
+L 1827.477847 598.228625 
+Q 1829.877847 598.228625 1829.877847 595.828625 
+L 1829.877847 561.211375 
+Q 1829.877847 558.811375 1827.477847 558.811375 
+L 1711.766597 558.811375 
+Q 1709.366597 558.811375 1709.366597 561.211375 
+L 1709.366597 595.828625 
+Q 1709.366597 598.228625 1711.766597 598.228625 
+z
+" style="fill: #4ea7e8; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1711.766597 567.290125)">Hours to fall asleep &lt;= 0.14</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1742.147222 576.248375)">samples = 11</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1729.383472 585.206625)">value = [0.33, 3.18]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1744.427222 594.164875)">class = GAD</text>
+   </g>
+   <g id="patch_66">
+    <path d="M 1864.223891 559.846344 
+Q 1882.502307 507.177293 1901.147282 453.452006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1866.784607 557.347797 
+L 1864.223891 559.846344 
+L 1863.761483 556.298644 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_33">
+    <g id="patch_67">
+     <path d="M 1817.504583 593.7495 
+L 1897.982083 593.7495 
+Q 1900.382083 593.7495 1900.382083 591.3495 
+L 1900.382083 565.6905 
+Q 1900.382083 563.2905 1897.982083 563.2905 
+L 1817.504583 563.2905 
+Q 1815.104583 563.2905 1815.104583 565.6905 
+L 1815.104583 591.3495 
+Q 1815.104583 593.7495 1817.504583 593.7495 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1832.813333 571.76925)">samples = 2</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1817.504583 580.7275)">value = [0.33, 0.33]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1825.368958 589.68575)">class = No GAD</text>
+   </g>
+   <g id="patch_68">
+    <path d="M 1939.383886 559.846344 
+Q 1921.105471 507.177293 1902.460496 453.452006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1939.846295 556.298644 
+L 1939.383886 559.846344 
+L 1936.823171 557.347797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_34">
+    <g id="patch_69">
+     <path d="M 1908.170694 593.7495 
+L 1983.558194 593.7495 
+Q 1985.958194 593.7495 1985.958194 591.3495 
+L 1985.958194 565.6905 
+Q 1985.958194 563.2905 1983.558194 563.2905 
+L 1908.170694 563.2905 
+Q 1905.770694 563.2905 1905.770694 565.6905 
+L 1905.770694 591.3495 
+Q 1905.770694 593.7495 1908.170694 593.7495 
+z
+" style="fill: #e58139; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1920.934444 571.76925)">samples = 2</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1908.170694 580.7275)">value = [4.04, 0.0]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1913.490069 589.68575)">class = No GAD</text>
+   </g>
+   <g id="patch_70">
+    <path d="M 214.022166 429.531058 
+Q 285.589003 377.976298 358.063002 325.768042 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 217.553823 428.958872 
+L 214.022166 429.531058 
+L 215.683412 426.362421 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_35">
+    <g id="patch_71">
+     <path d="M 135.568472 471.268625 
+L 231.315972 471.268625 
+Q 233.715972 471.268625 233.715972 468.868625 
+L 233.715972 434.251375 
+Q 233.715972 431.851375 231.315972 431.851375 
+L 135.568472 431.851375 
+Q 133.168472 431.851375 133.168472 434.251375 
+L 133.168472 468.868625 
+Q 133.168472 471.268625 135.568472 471.268625 
+z
+" style="fill: #e68641; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(137.084722 440.330125)">Muscle tension &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(153.422222 449.288375)">samples = 363</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(135.568472 458.246625)">value = [440.61, 16.99]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(151.067847 467.204875)">class = No GAD</text>
+   </g>
+   <g id="patch_72">
+    <path d="M 505.108143 429.359192 
+Q 433.66151 377.891022 361.307713 325.769358 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 503.446898 426.190555 
+L 505.108143 429.359192 
+L 501.576486 428.787006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_36">
+    <g id="patch_73">
+     <path d="M 451.464167 471.3255 
+L 620.389167 471.3255 
+Q 622.789167 471.3255 622.789167 468.9255 
+L 622.789167 434.08075 
+Q 622.789167 431.68075 620.389167 431.68075 
+L 451.464167 431.68075 
+Q 449.064167 431.68075 449.064167 434.08075 
+L 449.064167 468.9255 
+Q 449.064167 471.3255 451.464167 471.3255 
+z
+" style="fill: #efb083; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(451.464167 440.27325)">Physical symptoms at school/dayc &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(508.451667 449.34525)">samples = 61</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(493.142917 458.3035)">value = [38.92, 14.5]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(503.552292 467.26175)">class = No GAD</text>
+   </g>
+   <g id="patch_74">
+    <path d="M 919.229634 429.359192 
+Q 990.676268 377.891022 1063.030065 325.769358 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 922.761292 428.787006 
+L 919.229634 429.359192 
+L 920.89088 426.190555 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_37">
+    <g id="patch_75">
+     <path d="M 818.894861 471.3255 
+L 957.927361 471.3255 
+Q 960.327361 471.3255 960.327361 468.9255 
+L 960.327361 434.08075 
+Q 960.327361 431.68075 957.927361 431.68075 
+L 818.894861 431.68075 
+Q 816.494861 431.68075 816.494861 434.08075 
+L 816.494861 468.9255 
+Q 816.494861 471.3255 818.894861 471.3255 
+z
+" style="fill: #eb9d65; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(818.894861 440.27325)">Reluctance to go to sleep &lt;= 65.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(858.391111 449.34525)">samples = 202</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(840.537361 458.3035)">value = [127.93, 28.72]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(856.036736 467.26175)">class = No GAD</text>
+   </g>
+   <g id="patch_76">
+    <path d="M 1210.077032 429.359192 
+Q 1138.630399 377.891022 1066.276602 325.769358 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1208.415787 426.190555 
+L 1210.077032 429.359192 
+L 1206.545375 428.787006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_38">
+    <g id="patch_77">
+     <path d="M 1169.948681 471.3255 
+L 1311.842431 471.3255 
+Q 1314.242431 471.3255 1314.242431 468.9255 
+L 1314.242431 434.08075 
+Q 1314.242431 431.68075 1311.842431 431.68075 
+L 1169.948681 431.68075 
+Q 1167.548681 431.68075 1167.548681 434.08075 
+L 1167.548681 468.9255 
+Q 1167.548681 471.3255 1169.948681 471.3255 
+z
+" style="fill: #7dbfee; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1169.948681 440.27325)">Sleeps with family member &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1213.420556 449.34525)">samples = 20</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1198.111806 458.3035)">value = [4.26, 12.32]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1215.700556 467.26175)">class = GAD</text>
+   </g>
+   <g id="patch_78">
+    <path d="M 1557.413212 428.237898 
+Q 1574.885675 377.891193 1592.724696 326.488252 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1559.973928 425.739351 
+L 1557.413212 428.237898 
+L 1556.950804 424.690197 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_39">
+    <g id="patch_79">
+     <path d="M 1465.830694 471.3255 
+L 1632.808194 471.3255 
+Q 1635.208194 471.3255 1635.208194 468.9255 
+L 1635.208194 434.08075 
+Q 1635.208194 431.68075 1632.808194 431.68075 
+L 1465.830694 431.68075 
+Q 1463.430694 431.68075 1463.430694 434.08075 
+L 1463.430694 468.9255 
+Q 1463.430694 471.3255 1465.830694 471.3255 
+z
+" style="fill: #eca36e; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1465.830694 440.27325)">Distress when attachment figure  &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1521.844444 449.34525)">samples = 24</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1506.535694 458.3035)">value = [20.71, 5.53]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1516.945069 467.26175)">class = No GAD</text>
+   </g>
+   <g id="patch_80">
+    <path d="M 1630.959997 432.886344 
+Q 1612.681582 380.217293 1594.036607 326.492006 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1631.422406 429.338644 
+L 1630.959997 432.886344 
+L 1628.399282 430.387797 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_40">
+    <g id="patch_81">
+     <path d="M 1599.746806 466.7895 
+L 1675.134306 466.7895 
+Q 1677.534306 466.7895 1677.534306 464.3895 
+L 1677.534306 438.7305 
+Q 1677.534306 436.3305 1675.134306 436.3305 
+L 1599.746806 436.3305 
+Q 1597.346806 436.3305 1597.346806 438.7305 
+L 1597.346806 464.3895 
+Q 1597.346806 466.7895 1599.746806 466.7895 
+z
+" style="fill: #399de5; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1609.965556 444.80925)">samples = 12</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1599.746806 453.7675)">value = [0.0, 3.87]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1612.245556 462.72575)">class = GAD</text>
+   </g>
+   <g id="patch_82">
+    <path d="M 1741.482003 428.622864 
+Q 1776.69348 377.892124 1812.542457 326.242911 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1744.621046 426.906353 
+L 1741.482003 428.622864 
+L 1741.992221 425.081723 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_41">
+    <g id="patch_83">
+     <path d="M 1659.801667 471.3255 
+L 1791.321667 471.3255 
+Q 1793.721667 471.3255 1793.721667 468.9255 
+L 1793.721667 434.08075 
+Q 1793.721667 431.68075 1791.321667 431.68075 
+L 1659.801667 431.68075 
+Q 1657.401667 431.68075 1657.401667 434.08075 
+L 1657.401667 468.9255 
+Q 1657.401667 471.3255 1659.801667 471.3255 
+z
+" style="fill: #3b9ee5; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1659.801667 440.27325)">Worry about appearance &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1698.086667 449.34525)">samples = 47</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1682.777917 458.3035)">value = [0.33, 28.34]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1700.366667 467.26175)">class = GAD</text>
+   </g>
+   <g id="patch_84">
+    <path d="M 1886.000055 428.790715 
+Q 1850.731239 377.977364 1814.824923 326.245539 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1885.489838 425.249574 
+L 1886.000055 428.790715 
+L 1882.861012 427.074204 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_42">
+    <g id="patch_85">
+     <path d="M 1857.827639 471.268625 
+L 1945.780139 471.268625 
+Q 1948.180139 471.268625 1948.180139 468.868625 
+L 1948.180139 434.251375 
+Q 1948.180139 431.851375 1945.780139 431.851375 
+L 1857.827639 431.851375 
+Q 1855.427639 431.851375 1855.427639 434.251375 
+L 1855.427639 468.868625 
+Q 1855.427639 471.268625 1857.827639 471.268625 
+z
+" style="fill: #e78b48; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1857.827639 440.330125)">Other worries &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1876.873889 449.288375)">samples = 4</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1861.565139 458.246625)">value = [4.37, 0.33]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1869.429514 467.204875)">class = No GAD</text>
+   </g>
+   <g id="patch_86">
+    <path d="M 418.727834 303.333392 
+Q 563.98101 251.015215 710.286068 198.318166 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 422.280694 303.754324 
+L 418.727834 303.333392 
+L 421.196296 300.743663 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_43">
+    <g id="patch_87">
+     <path d="M 292.318194 344.308625 
+L 427.050694 344.308625 
+Q 429.450694 344.308625 429.450694 341.908625 
+L 429.450694 307.291375 
+Q 429.450694 304.891375 427.050694 304.891375 
+L 292.318194 304.891375 
+Q 289.918194 304.891375 289.918194 307.291375 
+L 289.918194 341.908625 
+Q 289.918194 344.308625 292.318194 344.308625 
+z
+" style="fill: #e78946; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(292.318194 313.370125)">Concentration difficulties &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(329.664444 322.328375)">samples = 424</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(311.810694 331.286625)">value = [479.53, 31.49]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(327.310069 340.244875)">class = No GAD</text>
+   </g>
+   <g id="patch_88">
+    <path d="M 1005.139649 303.163998 
+Q 860.120117 250.929977 714.048703 198.317083 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1002.671187 300.574269 
+L 1005.139649 303.163998 
+L 1001.586789 303.58493 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_44">
+    <g id="patch_89">
+     <path d="M 994.310833 344.3655 
+L 1134.995833 344.3655 
+Q 1137.395833 344.3655 1137.395833 341.9655 
+L 1137.395833 307.12075 
+Q 1137.395833 304.72075 1134.995833 304.72075 
+L 994.310833 304.72075 
+Q 991.910833 304.72075 991.910833 307.12075 
+L 991.910833 341.9655 
+Q 991.910833 344.3655 994.310833 344.3655 
+z
+" style="fill: #eda876; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(994.310833 313.31325)">Duration awake per night &lt;= 0.23</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1034.633333 322.38525)">samples = 222</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1016.779583 331.3435)">value = [132.19, 41.04]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1032.278958 340.30175)">class = No GAD</text>
+   </g>
+   <g id="patch_90">
+    <path d="M 1612.953547 302.039617 
+Q 1657.219885 251.018433 1702.218911 199.152756 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1616.259162 300.671075 
+L 1612.953547 302.039617 
+L 1613.842082 298.574 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_45">
+    <g id="patch_91">
+     <path d="M 1526.01375 344.308625 
+L 1660.74625 344.308625 
+Q 1663.14625 344.308625 1663.14625 341.908625 
+L 1663.14625 307.291375 
+Q 1663.14625 304.891375 1660.74625 304.891375 
+L 1526.01375 304.891375 
+Q 1523.61375 304.891375 1523.61375 307.291375 
+L 1523.61375 341.908625 
+Q 1523.61375 344.308625 1526.01375 344.308625 
+z
+" style="fill: #f1ba93; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1526.01375 313.370125)">Concentration difficulties &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1565.905 322.328375)">samples = 36</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1550.59625 331.286625)">value = [20.71, 9.41]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1561.005625 340.244875)">class = No GAD</text>
+   </g>
+   <g id="patch_92">
+    <path d="M 1793.957769 301.865042 
+Q 1749.766073 250.929891 1704.841689 199.150246 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1793.069233 298.399425 
+L 1793.957769 301.865042 
+L 1790.652153 300.4965 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_46">
+    <g id="patch_93">
+     <path d="M 1739.452778 344.3655 
+L 1887.912778 344.3655 
+Q 1890.312778 344.3655 1890.312778 341.9655 
+L 1890.312778 307.12075 
+Q 1890.312778 304.72075 1887.912778 304.72075 
+L 1739.452778 304.72075 
+Q 1737.052778 304.72075 1737.052778 307.12075 
+L 1737.052778 341.9655 
+Q 1737.052778 344.3655 1739.452778 344.3655 
+z
+" style="fill: #59ade9; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1739.452778 313.31325)">Worry about natural disaster &lt;= 1.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1786.207778 322.38525)">samples = 51</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1770.899028 331.3435)">value = [4.71, 28.67]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1788.487778 340.30175)">class = GAD</text>
+   </g>
+   <g id="patch_94">
+    <path d="M 787.459922 178.355531 
+Q 996.143995 124.904791 1205.911141 71.17664 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 790.95685 179.111504 
+L 787.459922 178.355531 
+L 790.162857 176.011573 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_47">
+    <g id="patch_95">
+     <path d="M 642.652639 217.4055 
+L 781.685139 217.4055 
+Q 784.085139 217.4055 784.085139 215.0055 
+L 784.085139 180.16075 
+Q 784.085139 177.76075 781.685139 177.76075 
+L 642.652639 177.76075 
+Q 640.252639 177.76075 640.252639 180.16075 
+L 640.252639 215.0055 
+Q 640.252639 217.4055 642.652639 217.4055 
+z
+" style="fill: #e89050; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(642.652639 186.35325)">Reluctance to go to sleep &lt;= 37.0</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(682.148889 195.42525)">samples = 646</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(664.295139 204.3835)">value = [611.72, 72.53]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(679.794514 213.34175)">class = No GAD</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif; text-anchor: end" x="960.009514" y="134.16" transform="rotate(-0 960.009514 134.16)">True  </text>
+   </g>
+   <g id="patch_96">
+    <path d="M 1632.950477 179.561946 
+Q 1421.909172 125.507442 1209.784794 71.175528 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 1630.247542 177.217987 
+L 1632.950477 179.561946 
+L 1629.453549 180.317919 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_49">
+    <g id="patch_97">
+     <path d="M 1638.868264 217.4055 
+L 1768.194514 217.4055 
+Q 1770.594514 217.4055 1770.594514 215.0055 
+L 1770.594514 180.16075 
+Q 1770.594514 177.76075 1768.194514 177.76075 
+L 1638.868264 177.76075 
+Q 1636.468264 177.76075 1636.468264 180.16075 
+L 1636.468264 215.0055 
+Q 1636.468264 217.4055 1638.868264 217.4055 
+z
+" style="fill: #bddef6; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1638.868264 186.35325)">Night waking frequency &lt;= 0.5</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1676.056389 195.42525)">samples = 87</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1658.202639 204.3835)">value = [25.42, 38.08]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1678.336389 213.34175)">class = GAD</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif; text-anchor: start" x="1455.690764" y="134.16" transform="rotate(-0 1455.690764 134.16)">  False</text>
+   </g>
+   <g id="patch_98">
+    <path d="M 1207.850139 70.68 
+Q 1207.850139 70.68 1207.850139 70.68 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_51">
+    <g id="patch_99">
+     <path d="M 1148.820764 90.4455 
+L 1266.879514 90.4455 
+Q 1269.279514 90.4455 1269.279514 88.0455 
+L 1269.279514 53.20075 
+Q 1269.279514 50.80075 1266.879514 50.80075 
+L 1148.820764 50.80075 
+Q 1146.420764 50.80075 1146.420764 53.20075 
+L 1146.420764 88.0455 
+Q 1146.420764 90.4455 1148.820764 90.4455 
+z
+" style="fill: #ea975b; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1148.820764 59.39325)">Frequency of worries &lt;= 0.5</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1177.830139 68.46525)">samples = 733</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1157.431389 77.4235)">value = [637.14, 110.61]</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Serif', 'Liberation Serif', serif" transform="translate(1175.475764 86.38175)">class = No GAD</text>
+   </g>
+  </g>
+ </g>
+</svg>

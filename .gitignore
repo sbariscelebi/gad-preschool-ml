@@ -1,35 +1,31 @@
-# Python
+# Python caches and environments
 __pycache__/
 *.py[cod]
 *.egg-info/
-dist/
-build/
-.eggs/
-
-# Virtual environments
 .venv/
 venv/
-env/
+dist/
+build/
 
-# Jupyter
+# Local raw data: never commit participant-level source workbooks
+data/*.xlsx
+data/*.xls
+data/*.csv
+Training Data.xlsx
+Training_Data.xlsx
+Testing Data.xlsx
+Testing_Data.xlsx
+
+# Local outputs outside the curated results directory
+outputs/
+output/
+validation_smoke*/
+tmp/
+
+# Editors and operating systems
 .ipynb_checkpoints/
-*.ipynb
-
-# Data files (never commit raw data)
-*.xlsx
-*.xls
-*.csv
-
-# Outputs
-*.png
-*.svg
-*.pdf
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 *.swp

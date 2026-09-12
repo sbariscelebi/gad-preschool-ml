@@ -1,216 +1,118 @@
-# Early Detection of Generalised Anxiety Disorder in Preschool Children
-### Interpretable Machine Learning with Explainable AI
+# Concurrent Classification of Preschool Generalised Anxiety Disorder
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Kaggle%20%7C%20Local-orange)](https://www.kaggle.com/)
-[![Dataset](https://img.shields.io/badge/Dataset-Harvard%20Dataverse-red)](https://doi.org/10.7910/DVN/N42LWG)
+## Explainable machine learning with parent-reported PAPA symptoms
 
----
+This repository contains the analysis code, documented outputs, figures, and manuscript associated with a concurrent classification study of generalised anxiety disorder (GAD) in preschool children.
 
-## Overview
+The analysis uses parent-reported symptom items from the Preschool Age Psychiatric Assessment (PAPA). It does **not** establish prospective early detection, an independently validated screening instrument, or clinical utility.
 
-This repository contains the full machine learning pipeline for the paper:
+## Study design
 
-> **Early Detection of Generalised Anxiety Disorder in Preschool Children Using Interpretable Machine Learning with Explainable AI**
-> Hazal Karakuş, Selahattin Barış Çelebi, Şeyma Uğur
-> Batman University, Türkiye
+- Source dataset: Duke Preschool Anxiety Study training data, available from the [Harvard Dataverse](https://doi.org/10.7910/DVN/N42LWG)
+- Participants: 917 children; 226 met the study definition of GAD
+- Development partition: 733 participants
+- Same-source internal holdout: 184 participants
+- Primary feature set: 54 symptom variables
+- Excluded from the primary feature set: onset variables and two variables directly involved in the diagnostic definition
+- Primary models: L1-regularised logistic regression, decision tree, random forest, and XGBoost
+- Primary evaluation: sampling-design-weighted nested stratified cross-validation
+- Model selection: highest sensitivity among models satisfying the prespecified specificity requirement of at least 0.80
+- Explainability: model-specific feature importance and SHAP analyses
 
-We apply four interpretable classifiers to parent-reported
-**Preschool Age Psychiatric Assessment (PAPA)** data from 917 children
-to predict binary Generalised Anxiety Disorder (GAD) status.
-Class imbalance (24.6% positive prevalence) is addressed with **SMOTE applied
-strictly within each cross-validation fold** to prevent data leakage.
-Model decisions are explained using **SHAP (LinearExplainer and TreeExplainer)**.
+The same-source holdout is an internal evaluation set, not an external validation cohort.
 
-### Key Results
+## Primary results
 
-| Model | AUC-ROC | F1 | Recall | MCC | Holdout Accuracy |
-|---|---|---|---|---|---|
-| Decision Tree | **0.9884** | **0.8913** | 0.9071 | **0.8552** | **95.65%** |
-| Logistic Regression | 0.9740 | 0.8847 | **0.9336** | 0.8464 | 92.39% |
-| KNN | 0.8978 | 0.7081 | 0.7566 | 0.6066 | 83.70% |
-| Naive Bayes | 0.8724 | 0.6290 | 0.5664 | 0.5302 | 83.15% |
+| Model | AUC-ROC | AP | F1 | Precision | Sensitivity | Specificity | Accuracy | MCC | Brier |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| L1 logistic regression | 0.7003 | 0.3838 | 0.3981 | 0.3198 | 0.5271 | 0.8053 | 0.7642 | 0.2749 | 0.1230 |
+| Decision tree | 0.6838 | 0.3446 | 0.2831 | 0.2185 | 0.4022 | 0.7503 | 0.6988 | 0.1216 | 0.1446 |
+| **Random forest** | **0.7704** | **0.4292** | **0.4357** | **0.3558** | **0.5619** | **0.8234** | **0.7847** | **0.3233** | **0.1071** |
+| XGBoost | 0.7435 | 0.4149 | 0.3854 | 0.3109 | 0.5069 | 0.8050 | 0.7609 | 0.2588 | 0.1140 |
 
-**Top predictors (SHAP + Gini + standardised coefficients):**
-`Situational anxious affect` and `Uncontrollable cross-domain worries`
-— both aligned with DSM-5 GAD diagnostic criteria.
+These values come from sampling-design-weighted nested-CV out-of-fold predictions in the development partition. The Kish effective sample size was 213.65.
 
----
+Random forest was selected under the prespecified specificity constraint. In the same-source internal holdout it achieved AUC-ROC 0.8747, AP 0.6194, sensitivity 0.6484, specificity 0.8997, accuracy 0.8579, MCC 0.5189, and Brier score 0.1047. The holdout Kish effective sample size was 50.52, so these estimates require cautious interpretation.
 
-## Project Structure
+For nested-CV out-of-fold predictions, random forest had an expected calibration error of 0.0213, calibration intercept of 0.0930, and calibration slope of 1.0751.
 
+## Diagnostic circularity analysis
+
+The two direct diagnostic-definition variables were excluded from the primary analysis. Separate full-feature and diagnostic-definition-only models are retained only as secondary diagnostic-circularity sensitivity analyses. Their substantially higher AUC values must not be presented as primary model performance or evidence of clinical screening validity.
+
+## Repository structure
+
+```text
+.
+├── src/
+│   └── gad_preschool_analysis.py   # Complete analysis pipeline
+├── data/
+│   └── README.md                   # Data access and local path instructions
+├── results/
+│   ├── README.md                   # Output roles and interpretation
+│   ├── manifest.json               # File hashes and provenance metadata
+│   └── full_analysis/              # Verified full-analysis workbooks and figures
+├── docs/
+│   ├── methodology.md
+│   ├── reproducibility.md
+│   └── results.md
+├── manuscript/
+│   └── manuscript.docx
+├── CITATION.cff
+├── pyproject.toml
+├── requirements.txt
+└── LICENSE
 ```
-gad_preschool/
-├── config.py           # All constants, paths, colour palette, PAPA feature labels
-├── data_loader.py      # Load and clean Training_Data.xlsx
-├── pipelines.py        # Four ImbPipelines (NB, LR, DT, KNN)
-├── evaluation.py       # 10-fold CV and holdout evaluation
-├── visualisation.py    # Figures 1–6 (class dist, metrics, ROC, PR, CM, radar)
-├── xai.py              # Figures 7–12 (feature importance, DT rules, SHAP)
-├── excel_export.py     # Excel workbooks (metrics + actual-vs-predicted)
-└── main.py             # Entry point — runs full pipeline
-requirements.txt
-README.md
-```
 
----
+## Data
 
-## Dataset
+Raw participant data are not committed to this repository. Download the training workbook from the Harvard Dataverse record and follow [data/README.md](data/README.md).
 
-- **Source:** Harvard Dataverse — [doi:10.7910/DVN/N42LWG](https://doi.org/10.7910/DVN/N42LWG)
-- **Reference:** Carpenter et al. (2016). *Quantifying Risk for Anxiety Disorders in Preschool Children: A Machine Learning Approach.* PLoS ONE.
-- **Instrument:** Preschool Age Psychiatric Assessment (PAPA) — Egger & Angold (2004)
-- **Samples:** 917 preschool children (ages 2–5)
-- **Features:** 56 behavioural and affective items
-- **Target:** Binary GAD diagnosis (0 = No GAD, 1 = GAD)
-- **Class ratio:** 3.1 : 1 (691 negative / 226 positive)
+## Installation
 
-> **Data policy:** Only `Training_Data.xlsx` is used.
-> `Testing_Data.xlsx` is never loaded or referenced at any stage.
-
----
-
-## Setup
-
-### 1. Clone the repository
+Python 3.10 or later is required. The final recorded notebook environment used Python 3.12.12; exact historical package versions were not embedded in the archived output files.
 
 ```bash
-git clone https://github.com/<your-username>/gad-preschool-ml.git
-cd gad-preschool-ml
+python -m venv .venv
 ```
 
-### 2. Install dependencies
+Activate the environment and install dependencies:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
-Requires Python 3.10 or higher.
+## Running the analysis
 
-### 3. Set the data path
+Set the input workbook and output directory through environment variables.
 
-Edit `config.py`:
+PowerShell:
 
-```python
-TRAIN_PATH = "/path/to/your/Training Data.xlsx"
-OUTPUT_DIR = "/path/to/output/"
+```powershell
+$env:GAD_TRAIN_PATH = "C:\path\to\Training Data.xlsx"
+$env:GAD_OUTPUT_DIR = "C:\path\to\outputs"
+python src\gad_preschool_analysis.py
 ```
 
-On **Kaggle**, the defaults work without modification if the dataset is
-added under `bariscelebi/anskiyetedata`.
-
-### 4. Run the pipeline
+Bash:
 
 ```bash
-cd gad_preschool
-python main.py
+export GAD_TRAIN_PATH="/path/to/Training Data.xlsx"
+export GAD_OUTPUT_DIR="/path/to/outputs"
+python src/gad_preschool_analysis.py
 ```
 
----
+The committed `results/full_analysis` directory contains archived outputs from the completed full analysis. The repository-refresh operation did not rerun the computational pipeline.
 
-## Running on Kaggle
+## Interpretation limits
 
-1. Upload this repository as a Kaggle Dataset or paste `main.py` into a notebook.
-2. Add the Harvard Dataverse dataset: `bariscelebi/anskiyetedata`.
-3. Set accelerator to **None** (CPU is sufficient).
-4. Run all cells. All outputs save to `/kaggle/working/`.
+- Predictors and the diagnostic outcome originate from the same PAPA instrument.
+- The holdout comes from the same source cohort and is not external validation.
+- SHAP describes how fitted models generated predictions; it does not identify causal risk factors.
+- Missingness reached 51.1% for duration awake per night and 19.1% for hours taken to fall asleep. A dedicated missing-data sensitivity analysis was not completed.
+- Independent prospective external validation, external calibration or recalibration, and clinical-utility assessment are required before implementation.
 
----
+## Licence
 
-## Module Guide
-
-| Module | What it does | Key functions |
-|---|---|---|
-| `config.py` | Constants, paths, palette, PAPA labels | `to_en()` |
-| `data_loader.py` | Load Excel, drop onset cols, fix NaN | `load_data()` |
-| `pipelines.py` | Build 4 ImbPipelines with SMOTE inside | `build_pipelines()` |
-| `evaluation.py` | 10-fold CV + holdout | `run_cv()`, `run_holdout()` |
-| `visualisation.py` | Figs 1–6 | `plot_*()` |
-| `xai.py` | Figs 7–12 (SHAP, DT rules, importance) | `run_shap()`, `plot_feature_importance()`, `plot_decision_tree_rules()` |
-| `excel_export.py` | Excel workbooks | `save_metrics_excel()`, `save_actual_pred_excel()` |
-| `main.py` | Orchestrates all steps | `main()` |
-
----
-
-## Outputs
-
-After a full run, the output directory contains:
-
-| File | Description |
-|---|---|
-| `fig01_class_distribution.png/svg` | Class distribution bar chart |
-| `fig02_metric_comparison.png/svg` | 6-metric grouped bar chart |
-| `fig03_roc_curves.png/svg` | ROC curves (10-fold CV) |
-| `fig04_pr_curves.png/svg` | Precision-Recall curves |
-| `fig05_confusion_matrices.png/svg` | Confusion matrices (aggregated) |
-| `fig06_radar.png/svg` | Multi-metric radar chart |
-| `fig07_feature_importance.png/svg` | LR coefficients + DT Gini (top 15) |
-| `fig08_decision_tree_rules.png/svg` | Decision Tree at depth 4 |
-| `fig09_shap_beeswarm_logistic_regression.png/svg` | LR SHAP beeswarm |
-| `fig10_shap_bar_logistic_regression.png/svg` | LR SHAP bar (mean \|SHAP\|) |
-| `fig11_shap_bar_decision_tree.png/svg` | DT SHAP bar (mean \|SHAP\|) |
-| `fig12_shap_dot_decision_tree.png/svg` | DT SHAP dot plot |
-| `GAD_model_metrics.xlsx` | CV metrics for all 4 models |
-| `GAD_actual_vs_predicted.xlsx` | Holdout predictions per sample |
-
----
-
-## Methodology Summary
-
-### Pipeline Design
-
-```
-Training Data (n=733)
-    └── For each CV fold:
-            ├── Median imputation (inside fold)
-            ├── StandardScaler (LR and KNN only)
-            ├── SMOTE k=5 (inside fold — no leakage)
-            └── Classifier fit + out-of-fold prediction
-
-Holdout Set (n=184, 20% stratified split)
-    └── Final model fit on full training partition
-        └── Predict + SHAP attribution
-```
-
-### Why SMOTE inside the fold?
-
-Applying oversampling before cross-validation leaks information from
-validation folds into training, producing overoptimistic metrics
-(Blagus & Lusa, 2013; Yi et al., 2023). All SMOTE steps in this
-pipeline are applied exclusively within each training fold.
-
-### Evaluation metrics
-
-Seven metrics are reported: AUC-ROC, Average Precision (AP), F1,
-Precision, Recall, Accuracy, and MCC. Matthews Correlation Coefficient
-(MCC) is included as the primary robustness metric because it
-incorporates all four cells of the confusion matrix and is unaffected
-by class imbalance (Chicco & Jurman, 2020).
-
----
-
-## References
-
-- Carpenter et al. (2016). PLoS ONE. https://doi.org/10.1371/journal.pone.0165524
-- Egger & Angold (2004). Handbook of Infant, Toddler, and Preschool Mental Health Assessment.
-- Chawla et al. (2002). JAIR. https://doi.org/10.1613/jair.953
-- Blagus & Lusa (2013). BMC Bioinformatics. https://doi.org/10.1186/1471-2105-14-106
-- Lundberg & Lee (2017). NeurIPS. https://doi.org/10.48550/ARXIV.1705.07874
-- Chicco & Jurman (2020). BMC Genomics. https://doi.org/10.1186/s12864-019-6413-7
-- Ponce-Bobadilla et al. (2024). CTS. https://doi.org/10.1111/cts.70056
-- Yang et al. (2021). Epidemiology and Psychiatric Sciences. https://doi.org/10.1017/S2045796021000275
-
----
-
-## License
-
-This project is released under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-**Selahattin Barış Çelebi**
-Batman University, Department of Management Information Systems
-Batman, Türkiye
+The source code is provided under the MIT License. Dataset use remains subject to the terms of the Harvard Dataverse record and the original data providers.
